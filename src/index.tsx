@@ -1,3 +1,4 @@
 import { render } from "react-dom";
-import "./Counter.scss"
-render(<div>ads</div>, document.getElementById("root"));
+import App from "./App";
+
+render(<App />, document.getElementById("root"));
